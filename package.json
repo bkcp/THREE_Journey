@@ -1,0 +1,22 @@
+{
+  "name": "three_journey",
+  "version": "1.0.0",
+  "description": "Study of Three.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkcp/THREE_Journey.git"
+  },
+  "author": "bkcp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkcp/THREE_Journey/issues"
+  },
+  "homepage": "https://github.com/bkcp/THREE_Journey#readme",
+  "dependencies": {
+    "three": "^0.140.2"
+  }
+}
