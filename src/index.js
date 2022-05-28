@@ -1,6 +1,8 @@
 import * as THREE from 'three';
 
 const scene = new THREE.Scene();
+const color1 = new THREE.Color("rgb(20, 111, 202)");
+scene.background = color1;
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
 const renderer = new THREE.WebGLRenderer();
