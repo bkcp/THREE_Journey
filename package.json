@@ -2,11 +2,9 @@
   "name": "three_journey",
   "version": "1.0.0",
   "description": "Study of Three.js",
-  "private": true,
-  "type": "module",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,16 +16,5 @@
   "bugs": {
     "url": "https://github.com/bkcp/THREE_Journey/issues"
   },
-  "homepage": "https://github.com/bkcp/THREE_Journey#readme",
-  "dependencies": {
-    "babel-register": "^6.26.0",
-    "internal-ip": "^7.0.0",
-    "portfinder-sync": "^0.0.2",
-    "three": "^0.140.2",
-    "webpack": "^5.72.1",
-    "webpack-dev-server": "^4.9.0"
-  },
-  "devDependencies": {
-    "webpack-cli": "^4.9.2"
-  }
+  "homepage": "https://github.com/bkcp/THREE_Journey#readme"
 }
